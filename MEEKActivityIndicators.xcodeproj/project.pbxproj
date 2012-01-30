@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C2C1AA14D74AA90041FF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2C1A914D74AA90041FF2A /* UIKit.framework */; };
+		41C2C1AC14D74AA90041FF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2C1AB14D74AA90041FF2A /* Foundation.framework */; };
+		41C2C1AE14D74AA90041FF2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2C1AD14D74AA90041FF2A /* CoreGraphics.framework */; };
+		41C2C1B414D74AA90041FF2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1B214D74AA90041FF2A /* InfoPlist.strings */; };
+		41C2C1B614D74AA90041FF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1B514D74AA90041FF2A /* main.m */; };
+		41C2C1BA14D74AA90041FF2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1B914D74AA90041FF2A /* AppDelegate.m */; };
+		41C2C1BD14D74AA90041FF2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1BC14D74AA90041FF2A /* ViewController.m */; };
+		41C2C1C014D74AA90041FF2A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1BE14D74AA90041FF2A /* ViewController.xib */; };
+		41C2C1CC14D74AFE0041FF2A /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1C714D74AFE0041FF2A /* TableVC.m */; };
+		41C2C1CD14D74AFE0041FF2A /* TableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1C814D74AFE0041FF2A /* TableVC.xib */; };
+		41C2C1CE14D74AFE0041FF2A /* ButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1CA14D74AFE0041FF2A /* ButtonVC.m */; };
+		41C2C1CF14D74AFE0041FF2A /* ButtonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1CB14D74AFE0041FF2A /* ButtonVC.xib */; };
+		41C2C1D814D74BF40041FF2A /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1D614D74BF40041FF2A /* DetailVC.m */; };
+		41C2C1D914D74BF40041FF2A /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1D714D74BF40041FF2A /* DetailVC.xib */; };
+		41C2C1DC14D74EDF0041FF2A /* MEEKActivityIndicators.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1DB14D74EDF0041FF2A /* MEEKActivityIndicators.m */; };
+		41C2C1E314D753F80041FF2A /* MEEKLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2C1E214D753F80041FF2A /* MEEKLoadingView.m */; };
+		41C2C1E514D755170041FF2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2C1E414D755170041FF2A /* QuartzCore.framework */; };
+		41C2C1E814D75CC60041FF2A /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1E714D75CC60041FF2A /* icon57.png */; };
+		41C2C1EA14D75CC90041FF2A /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1E914D75CC80041FF2A /* icon114.png */; };
+		41C2C1ED14D75DB40041FF2A /* tableviewtab.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1EB14D75DB40041FF2A /* tableviewtab.png */; };
+		41C2C1EE14D75DB40041FF2A /* tableviewtab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1EC14D75DB40041FF2A /* tableviewtab@2x.png */; };
+		41C2C1F114D75E130041FF2A /* buttonviewtab.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1EF14D75E130041FF2A /* buttonviewtab.png */; };
+		41C2C1F214D75E130041FF2A /* buttonviewtab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1F014D75E130041FF2A /* buttonviewtab@2x.png */; };
+		41C2C1F914D760220041FF2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C1F814D760220041FF2A /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41C2C1A514D74AA90041FF2A /* MEEKActivityIndicators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEEKActivityIndicators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C2C1A914D74AA90041FF2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41C2C1AB14D74AA90041FF2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41C2C1AD14D74AA90041FF2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41C2C1B114D74AA90041FF2A /* MEEKActivityIndicators-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MEEKActivityIndicators-Info.plist"; sourceTree = "<group>"; };
+		41C2C1B314D74AA90041FF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C2C1B514D74AA90041FF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C2C1B714D74AA90041FF2A /* MEEKActivityIndicators-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEEKActivityIndicators-Prefix.pch"; sourceTree = "<group>"; };
+		41C2C1B814D74AA90041FF2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41C2C1B914D74AA90041FF2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41C2C1BB14D74AA90041FF2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41C2C1BC14D74AA90041FF2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41C2C1BF14D74AA90041FF2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		41C2C1C614D74AFE0041FF2A /* TableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC.h; sourceTree = "<group>"; };
+		41C2C1C714D74AFE0041FF2A /* TableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC.m; sourceTree = "<group>"; };
+		41C2C1C814D74AFE0041FF2A /* TableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableVC.xib; sourceTree = "<group>"; };
+		41C2C1C914D74AFE0041FF2A /* ButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonVC.h; sourceTree = "<group>"; };
+		41C2C1CA14D74AFE0041FF2A /* ButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonVC.m; sourceTree = "<group>"; };
+		41C2C1CB14D74AFE0041FF2A /* ButtonVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonVC.xib; sourceTree = "<group>"; };
+		41C2C1D514D74BF40041FF2A /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		41C2C1D614D74BF40041FF2A /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		41C2C1D714D74BF40041FF2A /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		41C2C1DA14D74EDF0041FF2A /* MEEKActivityIndicators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEEKActivityIndicators.h; sourceTree = "<group>"; };
+		41C2C1DB14D74EDF0041FF2A /* MEEKActivityIndicators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEEKActivityIndicators.m; sourceTree = "<group>"; };
+		41C2C1E114D753F80041FF2A /* MEEKLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEEKLoadingView.h; sourceTree = "<group>"; };
+		41C2C1E214D753F80041FF2A /* MEEKLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEEKLoadingView.m; sourceTree = "<group>"; };
+		41C2C1E414D755170041FF2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		41C2C1E714D75CC60041FF2A /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		41C2C1E914D75CC80041FF2A /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		41C2C1EB14D75DB40041FF2A /* tableviewtab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableviewtab.png; sourceTree = "<group>"; };
+		41C2C1EC14D75DB40041FF2A /* tableviewtab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableviewtab@2x.png"; sourceTree = "<group>"; };
+		41C2C1EF14D75E130041FF2A /* buttonviewtab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonviewtab.png; sourceTree = "<group>"; };
+		41C2C1F014D75E130041FF2A /* buttonviewtab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonviewtab@2x.png"; sourceTree = "<group>"; };
+		41C2C1F814D760220041FF2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C2C1A214D74AA90041FF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C2C1E514D755170041FF2A /* QuartzCore.framework in Frameworks */,
+				41C2C1AA14D74AA90041FF2A /* UIKit.framework in Frameworks */,
+				41C2C1AC14D74AA90041FF2A /* Foundation.framework in Frameworks */,
+				41C2C1AE14D74AA90041FF2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C2C19A14D74AA90041FF2A = {
+			isa = PBXGroup;
+			children = (
+				41C2C1F814D760220041FF2A /* Default@2x.png */,
+				41C2C1E914D75CC80041FF2A /* icon114.png */,
+				41C2C1E714D75CC60041FF2A /* icon57.png */,
+				41C2C1AF14D74AA90041FF2A /* MEEKActivityIndicators */,
+				41C2C1A814D74AA90041FF2A /* Frameworks */,
+				41C2C1A614D74AA90041FF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C2C1A614D74AA90041FF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C1A514D74AA90041FF2A /* MEEKActivityIndicators.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C2C1A814D74AA90041FF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C1E414D755170041FF2A /* QuartzCore.framework */,
+				41C2C1A914D74AA90041FF2A /* UIKit.framework */,
+				41C2C1AB14D74AA90041FF2A /* Foundation.framework */,
+				41C2C1AD14D74AA90041FF2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C2C1AF14D74AA90041FF2A /* MEEKActivityIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C1B814D74AA90041FF2A /* AppDelegate.h */,
+				41C2C1B914D74AA90041FF2A /* AppDelegate.m */,
+				41C2C1BB14D74AA90041FF2A /* ViewController.h */,
+				41C2C1BC14D74AA90041FF2A /* ViewController.m */,
+				41C2C1BE14D74AA90041FF2A /* ViewController.xib */,
+				41C2C1E614D7570B0041FF2A /* MEEKActivityIndicators */,
+				41C2C1C614D74AFE0041FF2A /* TableVC.h */,
+				41C2C1C714D74AFE0041FF2A /* TableVC.m */,
+				41C2C1C814D74AFE0041FF2A /* TableVC.xib */,
+				41C2C1C914D74AFE0041FF2A /* ButtonVC.h */,
+				41C2C1CA14D74AFE0041FF2A /* ButtonVC.m */,
+				41C2C1CB14D74AFE0041FF2A /* ButtonVC.xib */,
+				41C2C1D514D74BF40041FF2A /* DetailVC.h */,
+				41C2C1D614D74BF40041FF2A /* DetailVC.m */,
+				41C2C1D714D74BF40041FF2A /* DetailVC.xib */,
+				41C2C1B014D74AA90041FF2A /* Supporting Files */,
+			);
+			path = MEEKActivityIndicators;
+			sourceTree = "<group>";
+		};
+		41C2C1B014D74AA90041FF2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C1EB14D75DB40041FF2A /* tableviewtab.png */,
+				41C2C1EC14D75DB40041FF2A /* tableviewtab@2x.png */,
+				41C2C1EF14D75E130041FF2A /* buttonviewtab.png */,
+				41C2C1F014D75E130041FF2A /* buttonviewtab@2x.png */,
+				41C2C1B114D74AA90041FF2A /* MEEKActivityIndicators-Info.plist */,
+				41C2C1B214D74AA90041FF2A /* InfoPlist.strings */,
+				41C2C1B514D74AA90041FF2A /* main.m */,
+				41C2C1B714D74AA90041FF2A /* MEEKActivityIndicators-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C2C1E614D7570B0041FF2A /* MEEKActivityIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				41C2C1DA14D74EDF0041FF2A /* MEEKActivityIndicators.h */,
+				41C2C1DB14D74EDF0041FF2A /* MEEKActivityIndicators.m */,
+				41C2C1E114D753F80041FF2A /* MEEKLoadingView.h */,
+				41C2C1E214D753F80041FF2A /* MEEKLoadingView.m */,
+			);
+			name = MEEKActivityIndicators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C2C1A414D74AA90041FF2A /* MEEKActivityIndicators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C2C1C314D74AA90041FF2A /* Build configuration list for PBXNativeTarget "MEEKActivityIndicators" */;
+			buildPhases = (
+				41C2C1A114D74AA90041FF2A /* Sources */,
+				41C2C1A214D74AA90041FF2A /* Frameworks */,
+				41C2C1A314D74AA90041FF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEEKActivityIndicators;
+			productName = MEEKActivityIndicators;
+			productReference = 41C2C1A514D74AA90041FF2A /* MEEKActivityIndicators.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C2C19C14D74AA90041FF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Meek Apps";
+			};
+			buildConfigurationList = 41C2C19F14D74AA90041FF2A /* Build configuration list for PBXProject "MEEKActivityIndicators" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41C2C19A14D74AA90041FF2A;
+			productRefGroup = 41C2C1A614D74AA90041FF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C2C1A414D74AA90041FF2A /* MEEKActivityIndicators */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C2C1A314D74AA90041FF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C2C1B414D74AA90041FF2A /* InfoPlist.strings in Resources */,
+				41C2C1C014D74AA90041FF2A /* ViewController.xib in Resources */,
+				41C2C1CD14D74AFE0041FF2A /* TableVC.xib in Resources */,
+				41C2C1CF14D74AFE0041FF2A /* ButtonVC.xib in Resources */,
+				41C2C1D914D74BF40041FF2A /* DetailVC.xib in Resources */,
+				41C2C1E814D75CC60041FF2A /* icon57.png in Resources */,
+				41C2C1EA14D75CC90041FF2A /* icon114.png in Resources */,
+				41C2C1ED14D75DB40041FF2A /* tableviewtab.png in Resources */,
+				41C2C1EE14D75DB40041FF2A /* tableviewtab@2x.png in Resources */,
+				41C2C1F114D75E130041FF2A /* buttonviewtab.png in Resources */,
+				41C2C1F214D75E130041FF2A /* buttonviewtab@2x.png in Resources */,
+				41C2C1F914D760220041FF2A /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C2C1A114D74AA90041FF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C2C1B614D74AA90041FF2A /* main.m in Sources */,
+				41C2C1BA14D74AA90041FF2A /* AppDelegate.m in Sources */,
+				41C2C1BD14D74AA90041FF2A /* ViewController.m in Sources */,
+				41C2C1CC14D74AFE0041FF2A /* TableVC.m in Sources */,
+				41C2C1CE14D74AFE0041FF2A /* ButtonVC.m in Sources */,
+				41C2C1D814D74BF40041FF2A /* DetailVC.m in Sources */,
+				41C2C1DC14D74EDF0041FF2A /* MEEKActivityIndicators.m in Sources */,
+				41C2C1E314D753F80041FF2A /* MEEKLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41C2C1B214D74AA90041FF2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C2C1B314D74AA90041FF2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41C2C1BE14D74AA90041FF2A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C2C1BF14D74AA90041FF2A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C2C1C114D74AA90041FF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41C2C1C214D74AA90041FF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C2C1C414D74AA90041FF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEEKActivityIndicators/MEEKActivityIndicators-Prefix.pch";
+				INFOPLIST_FILE = "MEEKActivityIndicators/MEEKActivityIndicators-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41C2C1C514D74AA90041FF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEEKActivityIndicators/MEEKActivityIndicators-Prefix.pch";
+				INFOPLIST_FILE = "MEEKActivityIndicators/MEEKActivityIndicators-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C2C19F14D74AA90041FF2A /* Build configuration list for PBXProject "MEEKActivityIndicators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C2C1C114D74AA90041FF2A /* Debug */,
+				41C2C1C214D74AA90041FF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C2C1C314D74AA90041FF2A /* Build configuration list for PBXNativeTarget "MEEKActivityIndicators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C2C1C414D74AA90041FF2A /* Debug */,
+				41C2C1C514D74AA90041FF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C2C19C14D74AA90041FF2A /* Project object */;
+}
