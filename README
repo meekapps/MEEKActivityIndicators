@@ -1,0 +1,7 @@
+Two types of useful, custom activity indicator uses: 
+0) Activity Indicator as UITableViewCellAccessory when the user taps a cell, and 
+
+1) a "Loading" overlay view, with nifty bounce animation. Note: The layout of the loading view is set up for the iPhone/iPod Touch window. You may have to play with it a bit for iPad.
+
+In the examples, activity indicators are simply shown for a time interval (kTableActivitySeconds and kButtonActivitySeconds). In real life, you'd probably want to invoke the activity view hide methods on a delegate callback or completion block (i.e. when your data has loaded).
+
