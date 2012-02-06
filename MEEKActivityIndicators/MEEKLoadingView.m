@@ -50,6 +50,7 @@
         [[grayBoxView layer] setShadowOffset:CGSizeMake(0.0f, 5.0f)];
         [[grayBoxView layer] setShadowOpacity:0.5f];
         [[grayBoxView layer] setShadowRadius:5.0f];
+        [[grayBoxView layer] setShadowPath:[UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, boxFrame.size.width, boxFrame.size.height) cornerRadius:10.0f].CGPath];
     }
     return self;
 }
